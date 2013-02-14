@@ -3,7 +3,7 @@
 //  wobprototype
 //
 //  Created by Mike Cendana on 2/12/13.
-//  Copyright __MyCompanyName__ 2013. All rights reserved.
+//  Copyright HeadHippo 2013. All rights reserved.
 //
 
 #import <UIKit/UIKit.h>
