@@ -8,6 +8,8 @@
 
 #import <Foundation/Foundation.h>
 
+extern int const WEAPON_TYPE_MISSILE_LAUNCHER;
+
 @interface WOBConstants : NSObject
 
 @end

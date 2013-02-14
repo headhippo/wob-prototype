@@ -190,6 +190,11 @@
 		F53EDDC316CA308F001D07C3 /* b2Rope.cpp in Sources */ = {isa = PBXBuildFile; fileRef = F53EDDC216CA308F001D07C3 /* b2Rope.cpp */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
 		F53EDDC916CA308F001D07C3 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = F53EDDC816CA308F001D07C3 /* main.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
 		F53EDDCC16CA308F001D07C3 /* AppDelegate.mm in Sources */ = {isa = PBXBuildFile; fileRef = F53EDDCB16CA308F001D07C3 /* AppDelegate.mm */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		F5D5E99416CCE1B40062F188 /* WOBUser.m in Sources */ = {isa = PBXBuildFile; fileRef = F5D5E99316CCE1B40062F188 /* WOBUser.m */; };
+		F5D5E99816CCE53F0062F188 /* WOBBot.m in Sources */ = {isa = PBXBuildFile; fileRef = F5D5E99716CCE53F0062F188 /* WOBBot.m */; };
+		F5D5E99B16CCE79F0062F188 /* WOBBasicBot.m in Sources */ = {isa = PBXBuildFile; fileRef = F5D5E99A16CCE79F0062F188 /* WOBBasicBot.m */; };
+		F5D5E99F16CCE9D80062F188 /* WOBWeapon.m in Sources */ = {isa = PBXBuildFile; fileRef = F5D5E99E16CCE9D80062F188 /* WOBWeapon.m */; };
+		F5D5E9A216CCEADE0062F188 /* WOBMissileLauncher.m in Sources */ = {isa = PBXBuildFile; fileRef = F5D5E9A116CCEADE0062F188 /* WOBMissileLauncher.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -561,6 +566,16 @@
 		F53EDDC816CA308F001D07C3 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		F53EDDCA16CA308F001D07C3 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		F53EDDCB16CA308F001D07C3 /* AppDelegate.mm */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.objcpp; path = AppDelegate.mm; sourceTree = "<group>"; };
+		F5D5E99216CCE1B40062F188 /* WOBUser.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WOBUser.h; sourceTree = "<group>"; };
+		F5D5E99316CCE1B40062F188 /* WOBUser.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WOBUser.m; sourceTree = "<group>"; };
+		F5D5E99616CCE53F0062F188 /* WOBBot.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WOBBot.h; sourceTree = "<group>"; };
+		F5D5E99716CCE53F0062F188 /* WOBBot.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WOBBot.m; sourceTree = "<group>"; };
+		F5D5E99916CCE79F0062F188 /* WOBBasicBot.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WOBBasicBot.h; sourceTree = "<group>"; };
+		F5D5E99A16CCE79F0062F188 /* WOBBasicBot.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WOBBasicBot.m; sourceTree = "<group>"; };
+		F5D5E99D16CCE9D80062F188 /* WOBWeapon.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WOBWeapon.h; sourceTree = "<group>"; };
+		F5D5E99E16CCE9D80062F188 /* WOBWeapon.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WOBWeapon.m; sourceTree = "<group>"; };
+		F5D5E9A016CCEADE0062F188 /* WOBMissileLauncher.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WOBMissileLauncher.h; sourceTree = "<group>"; };
+		F5D5E9A116CCEADE0062F188 /* WOBMissileLauncher.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WOBMissileLauncher.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -606,6 +621,13 @@
 			children = (
 				F50C31B016CCCC64008B57B6 /* WOBConstants.h */,
 				F50C31B116CCCC64008B57B6 /* WOBConstants.m */,
+				F5D5E99216CCE1B40062F188 /* WOBUser.h */,
+				F5D5E99316CCE1B40062F188 /* WOBUser.m */,
+				F5D5E99516CCE5050062F188 /* Bots */,
+				F5D5E99C16CCE99C0062F188 /* Weapons */,
+				F5D5E9A316CCF0BC0062F188 /* Games */,
+				F5D5E9A416CCF1AB0062F188 /* Maps */,
+				F5D5E9A516CCF1C20062F188 /* Commands */,
 			);
 			name = Domain;
 			sourceTree = "<group>";
@@ -1197,6 +1219,49 @@
 			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
+		F5D5E99516CCE5050062F188 /* Bots */ = {
+			isa = PBXGroup;
+			children = (
+				F5D5E99616CCE53F0062F188 /* WOBBot.h */,
+				F5D5E99716CCE53F0062F188 /* WOBBot.m */,
+				F5D5E99916CCE79F0062F188 /* WOBBasicBot.h */,
+				F5D5E99A16CCE79F0062F188 /* WOBBasicBot.m */,
+			);
+			name = Bots;
+			sourceTree = "<group>";
+		};
+		F5D5E99C16CCE99C0062F188 /* Weapons */ = {
+			isa = PBXGroup;
+			children = (
+				F5D5E99D16CCE9D80062F188 /* WOBWeapon.h */,
+				F5D5E99E16CCE9D80062F188 /* WOBWeapon.m */,
+				F5D5E9A016CCEADE0062F188 /* WOBMissileLauncher.h */,
+				F5D5E9A116CCEADE0062F188 /* WOBMissileLauncher.m */,
+			);
+			name = Weapons;
+			sourceTree = "<group>";
+		};
+		F5D5E9A316CCF0BC0062F188 /* Games */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Games;
+			sourceTree = "<group>";
+		};
+		F5D5E9A416CCF1AB0062F188 /* Maps */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Maps;
+			sourceTree = "<group>";
+		};
+		F5D5E9A516CCF1C20062F188 /* Commands */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Commands;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -1432,6 +1497,11 @@
 				F53EDDCC16CA308F001D07C3 /* AppDelegate.mm in Sources */,
 				F50C31B216CCCC64008B57B6 /* WOBConstants.m in Sources */,
 				F50C31B516CCCD3F008B57B6 /* WOBMainMenu.m in Sources */,
+				F5D5E99416CCE1B40062F188 /* WOBUser.m in Sources */,
+				F5D5E99816CCE53F0062F188 /* WOBBot.m in Sources */,
+				F5D5E99B16CCE79F0062F188 /* WOBBasicBot.m in Sources */,
+				F5D5E99F16CCE9D80062F188 /* WOBWeapon.m in Sources */,
+				F5D5E9A216CCEADE0062F188 /* WOBMissileLauncher.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
