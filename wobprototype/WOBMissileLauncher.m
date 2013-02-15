@@ -16,7 +16,6 @@
         [self setWeaponId:@"weapon1"];
         [self setModel:@"Missile Launcher Prototype 1"];
         [self setName:@"Missile Launcher Prototype 1"];
-        [self setLevel:1];
         [self setType:WEAPON_TYPE_MISSILE_LAUNCHER];
         [self setMinDamage:10];
         [self setMaxDamage:10];

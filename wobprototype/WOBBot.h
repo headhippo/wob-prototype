@@ -25,4 +25,6 @@
 @property (nonatomic, assign) NSInteger health;
 @property (nonatomic, strong) NSMutableArray *achievements;
 
++(id) sprite;
+
 @end

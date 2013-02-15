@@ -7,7 +7,11 @@
 //
 
 #import "WOBMainMenu.h"
+#import "WOBGameServer.h"
+#import "WOBCreateGameRequest.h"
+#import "WOBCreateGameResponse.h"
 
+#import "WOBGameView.h"
 
 @implementation WOBMainMenu
 
@@ -47,7 +51,10 @@
 }
 
 -(void) createGame {
-    
+    WOBCreateGameRequest* request = [[WOBCreateGameRequest alloc] init];
+    WOBCreateGameResponse* response = (WOBCreateGameResponse*)[[WOBGameServer server] callGameServer:request];
+    [WOBGameView setGame:response.game];
+    [[CCDirector sharedDirector] replaceScene:[CCTransitionFade transitionWithDuration:1.0 scene:[WOBGameView scene]]];
 }
 
 -(void) continueGame {

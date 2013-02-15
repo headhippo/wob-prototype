@@ -13,4 +13,12 @@
 
 @synthesize weaponId, model, name, level, type, minDamage, maxDamage, range;
 
+- (id) initWithFile:(NSString*)filename {
+    if ( (self=[super initWithFile:filename]) ) {
+        [self setLevel:1];
+    }
+    
+    return self;
+}
+
 @end

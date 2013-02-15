@@ -11,19 +11,21 @@
 
 @implementation WOBBasicBot
 
++(id) sprite {
+    return [WOBBasicBot spriteWithFile:@"Bot.png"];
+}
+
 - (id) initWithFile:(NSString*)filename {
     if ( (self=[super initWithFile:filename]) ) {
         [self setBotId:@"bot1"];
         [self setOwnerId:@"user1"];
         [self setModel:@"Basic Bot Prototype 1"];
         [self setName:@"Basic Bot Prototype 1"];
-        [self setLevel:1];
-        [self setPrimaryWeapon:[WOBMissileLauncher spriteWithFile:nil]];
-        [self setSecondaryWeapon:[WOBMissileLauncher spriteWithFile:nil]];
+        [self setPrimaryWeapon:[WOBMissileLauncher spriteWithFile:@"Bot.png"]];
+        [self setSecondaryWeapon:[WOBMissileLauncher spriteWithFile:@"Bot.png"]];
         [self setMaxSpeed:10];
         [self setMaxHealth:100];
         [self setHealth:100];
-        [self setAchievements:[NSMutableArray arrayWithCapacity:10]];
     }
     
     return self;

@@ -29,6 +29,26 @@
 		F50C31AB16CCC8B5008B57B6 /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = F50C31AA16CCC8B4008B57B6 /* Default-568h@2x.png */; };
 		F50C31B216CCCC64008B57B6 /* WOBConstants.m in Sources */ = {isa = PBXBuildFile; fileRef = F50C31B116CCCC64008B57B6 /* WOBConstants.m */; };
 		F50C31B516CCCD3F008B57B6 /* WOBMainMenu.m in Sources */ = {isa = PBXBuildFile; fileRef = F50C31B416CCCD3F008B57B6 /* WOBMainMenu.m */; };
+		F53083D416CDF9D500A24F5D /* WOBGame.m in Sources */ = {isa = PBXBuildFile; fileRef = F53083D316CDF9D500A24F5D /* WOBGame.m */; };
+		F53083D716CDFC6B00A24F5D /* WOBSingleBotTestGame.m in Sources */ = {isa = PBXBuildFile; fileRef = F53083D616CDFC6B00A24F5D /* WOBSingleBotTestGame.m */; };
+		F53083DA16CE088400A24F5D /* WOBMap.m in Sources */ = {isa = PBXBuildFile; fileRef = F53083D916CE088400A24F5D /* WOBMap.m */; };
+		F53083DD16CE09E900A24F5D /* WOBBasicMap.m in Sources */ = {isa = PBXBuildFile; fileRef = F53083DC16CE09E900A24F5D /* WOBBasicMap.m */; };
+		F53083E016CE160A00A24F5D /* WOBCommand.m in Sources */ = {isa = PBXBuildFile; fileRef = F53083DF16CE160A00A24F5D /* WOBCommand.m */; };
+		F53083E316CE182600A24F5D /* WOBMove.m in Sources */ = {isa = PBXBuildFile; fileRef = F53083E216CE182600A24F5D /* WOBMove.m */; };
+		F53083E616CE184000A24F5D /* WOBTurn.m in Sources */ = {isa = PBXBuildFile; fileRef = F53083E516CE184000A24F5D /* WOBTurn.m */; };
+		F53083E916CE185800A24F5D /* WOBAttack.m in Sources */ = {isa = PBXBuildFile; fileRef = F53083E816CE185800A24F5D /* WOBAttack.m */; };
+		F53083EC16CE1E7000A24F5D /* WOBRound.m in Sources */ = {isa = PBXBuildFile; fileRef = F53083EB16CE1E6F00A24F5D /* WOBRound.m */; };
+		F53083F016CE20E200A24F5D /* WOBAchievement.m in Sources */ = {isa = PBXBuildFile; fileRef = F53083EF16CE20E200A24F5D /* WOBAchievement.m */; };
+		F53083F616CE23D100A24F5D /* WOBGameServer.m in Sources */ = {isa = PBXBuildFile; fileRef = F53083F516CE23D100A24F5D /* WOBGameServer.m */; };
+		F53083F916CE23F600A24F5D /* WOBServerRequest.m in Sources */ = {isa = PBXBuildFile; fileRef = F53083F816CE23F600A24F5D /* WOBServerRequest.m */; };
+		F53083FC16CE240900A24F5D /* WOBServerResponse.m in Sources */ = {isa = PBXBuildFile; fileRef = F53083FB16CE240900A24F5D /* WOBServerResponse.m */; };
+		F53083FF16CE268700A24F5D /* WOBCreateGameRequest.m in Sources */ = {isa = PBXBuildFile; fileRef = F53083FE16CE268700A24F5D /* WOBCreateGameRequest.m */; };
+		F530840216CE26B100A24F5D /* WOBCreateGameResponse.m in Sources */ = {isa = PBXBuildFile; fileRef = F530840116CE26B100A24F5D /* WOBCreateGameResponse.m */; };
+		F530840516CE277E00A24F5D /* WOBSubmitTurnRequest.m in Sources */ = {isa = PBXBuildFile; fileRef = F530840416CE277E00A24F5D /* WOBSubmitTurnRequest.m */; };
+		F530840816CE279900A24F5D /* WOBSubmitTurnResponse.m in Sources */ = {isa = PBXBuildFile; fileRef = F530840716CE279900A24F5D /* WOBSubmitTurnResponse.m */; };
+		F530840B16CE284100A24F5D /* WOBGetUpdatedGameRequest.m in Sources */ = {isa = PBXBuildFile; fileRef = F530840A16CE284100A24F5D /* WOBGetUpdatedGameRequest.m */; };
+		F530840E16CE285C00A24F5D /* WOBGetUpdatedGameResponse.m in Sources */ = {isa = PBXBuildFile; fileRef = F530840D16CE285C00A24F5D /* WOBGetUpdatedGameResponse.m */; };
+		F530841116CE319500A24F5D /* WOBGameView.m in Sources */ = {isa = PBXBuildFile; fileRef = F530841016CE319500A24F5D /* WOBGameView.m */; };
 		F53EDBAE16CA308D001D07C3 /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F53EDBAD16CA308D001D07C3 /* QuartzCore.framework */; };
 		F53EDBB016CA308D001D07C3 /* OpenGLES.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F53EDBAF16CA308D001D07C3 /* OpenGLES.framework */; };
 		F53EDBB216CA308D001D07C3 /* OpenAL.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F53EDBB116CA308D001D07C3 /* OpenAL.framework */; };
@@ -222,6 +242,46 @@
 		F50C31B116CCCC64008B57B6 /* WOBConstants.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WOBConstants.m; sourceTree = "<group>"; };
 		F50C31B316CCCD3F008B57B6 /* WOBMainMenu.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WOBMainMenu.h; sourceTree = "<group>"; };
 		F50C31B416CCCD3F008B57B6 /* WOBMainMenu.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WOBMainMenu.m; sourceTree = "<group>"; };
+		F53083D216CDF9D500A24F5D /* WOBGame.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WOBGame.h; sourceTree = "<group>"; };
+		F53083D316CDF9D500A24F5D /* WOBGame.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WOBGame.m; sourceTree = "<group>"; };
+		F53083D516CDFC6B00A24F5D /* WOBSingleBotTestGame.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WOBSingleBotTestGame.h; sourceTree = "<group>"; };
+		F53083D616CDFC6B00A24F5D /* WOBSingleBotTestGame.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WOBSingleBotTestGame.m; sourceTree = "<group>"; };
+		F53083D816CE088400A24F5D /* WOBMap.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WOBMap.h; sourceTree = "<group>"; };
+		F53083D916CE088400A24F5D /* WOBMap.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WOBMap.m; sourceTree = "<group>"; };
+		F53083DB16CE09E900A24F5D /* WOBBasicMap.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WOBBasicMap.h; sourceTree = "<group>"; };
+		F53083DC16CE09E900A24F5D /* WOBBasicMap.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WOBBasicMap.m; sourceTree = "<group>"; };
+		F53083DE16CE160A00A24F5D /* WOBCommand.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WOBCommand.h; sourceTree = "<group>"; };
+		F53083DF16CE160A00A24F5D /* WOBCommand.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WOBCommand.m; sourceTree = "<group>"; };
+		F53083E116CE182600A24F5D /* WOBMove.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WOBMove.h; sourceTree = "<group>"; };
+		F53083E216CE182600A24F5D /* WOBMove.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WOBMove.m; sourceTree = "<group>"; };
+		F53083E416CE184000A24F5D /* WOBTurn.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WOBTurn.h; sourceTree = "<group>"; };
+		F53083E516CE184000A24F5D /* WOBTurn.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WOBTurn.m; sourceTree = "<group>"; };
+		F53083E716CE185800A24F5D /* WOBAttack.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WOBAttack.h; sourceTree = "<group>"; };
+		F53083E816CE185800A24F5D /* WOBAttack.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WOBAttack.m; sourceTree = "<group>"; };
+		F53083EA16CE1E6F00A24F5D /* WOBRound.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WOBRound.h; sourceTree = "<group>"; };
+		F53083EB16CE1E6F00A24F5D /* WOBRound.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WOBRound.m; sourceTree = "<group>"; };
+		F53083EE16CE20E200A24F5D /* WOBAchievement.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WOBAchievement.h; sourceTree = "<group>"; };
+		F53083EF16CE20E200A24F5D /* WOBAchievement.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WOBAchievement.m; sourceTree = "<group>"; };
+		F53083F416CE23D100A24F5D /* WOBGameServer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WOBGameServer.h; sourceTree = "<group>"; };
+		F53083F516CE23D100A24F5D /* WOBGameServer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WOBGameServer.m; sourceTree = "<group>"; };
+		F53083F716CE23F600A24F5D /* WOBServerRequest.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WOBServerRequest.h; sourceTree = "<group>"; };
+		F53083F816CE23F600A24F5D /* WOBServerRequest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WOBServerRequest.m; sourceTree = "<group>"; };
+		F53083FA16CE240900A24F5D /* WOBServerResponse.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WOBServerResponse.h; sourceTree = "<group>"; };
+		F53083FB16CE240900A24F5D /* WOBServerResponse.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WOBServerResponse.m; sourceTree = "<group>"; };
+		F53083FD16CE268700A24F5D /* WOBCreateGameRequest.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WOBCreateGameRequest.h; sourceTree = "<group>"; };
+		F53083FE16CE268700A24F5D /* WOBCreateGameRequest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WOBCreateGameRequest.m; sourceTree = "<group>"; };
+		F530840016CE26B100A24F5D /* WOBCreateGameResponse.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WOBCreateGameResponse.h; sourceTree = "<group>"; };
+		F530840116CE26B100A24F5D /* WOBCreateGameResponse.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WOBCreateGameResponse.m; sourceTree = "<group>"; };
+		F530840316CE277E00A24F5D /* WOBSubmitTurnRequest.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WOBSubmitTurnRequest.h; sourceTree = "<group>"; };
+		F530840416CE277E00A24F5D /* WOBSubmitTurnRequest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WOBSubmitTurnRequest.m; sourceTree = "<group>"; };
+		F530840616CE279900A24F5D /* WOBSubmitTurnResponse.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WOBSubmitTurnResponse.h; sourceTree = "<group>"; };
+		F530840716CE279900A24F5D /* WOBSubmitTurnResponse.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WOBSubmitTurnResponse.m; sourceTree = "<group>"; };
+		F530840916CE284000A24F5D /* WOBGetUpdatedGameRequest.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WOBGetUpdatedGameRequest.h; sourceTree = "<group>"; };
+		F530840A16CE284100A24F5D /* WOBGetUpdatedGameRequest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WOBGetUpdatedGameRequest.m; sourceTree = "<group>"; };
+		F530840C16CE285C00A24F5D /* WOBGetUpdatedGameResponse.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WOBGetUpdatedGameResponse.h; sourceTree = "<group>"; };
+		F530840D16CE285C00A24F5D /* WOBGetUpdatedGameResponse.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WOBGetUpdatedGameResponse.m; sourceTree = "<group>"; };
+		F530840F16CE319500A24F5D /* WOBGameView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WOBGameView.h; sourceTree = "<group>"; };
+		F530841016CE319500A24F5D /* WOBGameView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WOBGameView.m; sourceTree = "<group>"; };
 		F53EDBAA16CA308D001D07C3 /* wobprototype.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = wobprototype.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		F53EDBAD16CA308D001D07C3 /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
 		F53EDBAF16CA308D001D07C3 /* OpenGLES.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = OpenGLES.framework; path = System/Library/Frameworks/OpenGLES.framework; sourceTree = SDKROOT; };
@@ -605,6 +665,8 @@
 				F53EDDCB16CA308F001D07C3 /* AppDelegate.mm */,
 				F50C31B316CCCD3F008B57B6 /* WOBMainMenu.h */,
 				F50C31B416CCCD3F008B57B6 /* WOBMainMenu.m */,
+				F530840F16CE319500A24F5D /* WOBGameView.h */,
+				F530841016CE319500A24F5D /* WOBGameView.m */,
 			);
 			name = Client;
 			sourceTree = "<group>";
@@ -612,6 +674,8 @@
 		F50C31AD16CCCB40008B57B6 /* Server */ = {
 			isa = PBXGroup;
 			children = (
+				F53083F416CE23D100A24F5D /* WOBGameServer.h */,
+				F53083F516CE23D100A24F5D /* WOBGameServer.m */,
 			);
 			name = Server;
 			sourceTree = "<group>";
@@ -619,15 +683,15 @@
 		F50C31AE16CCCB51008B57B6 /* Domain */ = {
 			isa = PBXGroup;
 			children = (
-				F50C31B016CCCC64008B57B6 /* WOBConstants.h */,
-				F50C31B116CCCC64008B57B6 /* WOBConstants.m */,
-				F5D5E99216CCE1B40062F188 /* WOBUser.h */,
-				F5D5E99316CCE1B40062F188 /* WOBUser.m */,
+				F53083F116CE233200A24F5D /* Account */,
+				F53083F316CE236100A24F5D /* Gameplay */,
+				F53083F216CE234B00A24F5D /* Utils */,
 				F5D5E99516CCE5050062F188 /* Bots */,
 				F5D5E99C16CCE99C0062F188 /* Weapons */,
 				F5D5E9A316CCF0BC0062F188 /* Games */,
 				F5D5E9A416CCF1AB0062F188 /* Maps */,
 				F5D5E9A516CCF1C20062F188 /* Commands */,
+				F53083ED16CE20A700A24F5D /* Achievements */,
 			);
 			name = Domain;
 			sourceTree = "<group>";
@@ -635,8 +699,60 @@
 		F50C31AF16CCCB64008B57B6 /* Messaging */ = {
 			isa = PBXGroup;
 			children = (
+				F53083F716CE23F600A24F5D /* WOBServerRequest.h */,
+				F53083F816CE23F600A24F5D /* WOBServerRequest.m */,
+				F53083FA16CE240900A24F5D /* WOBServerResponse.h */,
+				F53083FB16CE240900A24F5D /* WOBServerResponse.m */,
+				F53083FD16CE268700A24F5D /* WOBCreateGameRequest.h */,
+				F53083FE16CE268700A24F5D /* WOBCreateGameRequest.m */,
+				F530840016CE26B100A24F5D /* WOBCreateGameResponse.h */,
+				F530840116CE26B100A24F5D /* WOBCreateGameResponse.m */,
+				F530840316CE277E00A24F5D /* WOBSubmitTurnRequest.h */,
+				F530840416CE277E00A24F5D /* WOBSubmitTurnRequest.m */,
+				F530840616CE279900A24F5D /* WOBSubmitTurnResponse.h */,
+				F530840716CE279900A24F5D /* WOBSubmitTurnResponse.m */,
+				F530840916CE284000A24F5D /* WOBGetUpdatedGameRequest.h */,
+				F530840A16CE284100A24F5D /* WOBGetUpdatedGameRequest.m */,
+				F530840C16CE285C00A24F5D /* WOBGetUpdatedGameResponse.h */,
+				F530840D16CE285C00A24F5D /* WOBGetUpdatedGameResponse.m */,
 			);
 			name = Messaging;
+			sourceTree = "<group>";
+		};
+		F53083ED16CE20A700A24F5D /* Achievements */ = {
+			isa = PBXGroup;
+			children = (
+				F53083EE16CE20E200A24F5D /* WOBAchievement.h */,
+				F53083EF16CE20E200A24F5D /* WOBAchievement.m */,
+			);
+			name = Achievements;
+			sourceTree = "<group>";
+		};
+		F53083F116CE233200A24F5D /* Account */ = {
+			isa = PBXGroup;
+			children = (
+				F5D5E99216CCE1B40062F188 /* WOBUser.h */,
+				F5D5E99316CCE1B40062F188 /* WOBUser.m */,
+			);
+			name = Account;
+			sourceTree = "<group>";
+		};
+		F53083F216CE234B00A24F5D /* Utils */ = {
+			isa = PBXGroup;
+			children = (
+				F50C31B016CCCC64008B57B6 /* WOBConstants.h */,
+				F50C31B116CCCC64008B57B6 /* WOBConstants.m */,
+			);
+			name = Utils;
+			sourceTree = "<group>";
+		};
+		F53083F316CE236100A24F5D /* Gameplay */ = {
+			isa = PBXGroup;
+			children = (
+				F53083EA16CE1E6F00A24F5D /* WOBRound.h */,
+				F53083EB16CE1E6F00A24F5D /* WOBRound.m */,
+			);
+			name = Gameplay;
 			sourceTree = "<group>";
 		};
 		F53EDBA116CA308D001D07C3 = {
@@ -1244,6 +1360,10 @@
 		F5D5E9A316CCF0BC0062F188 /* Games */ = {
 			isa = PBXGroup;
 			children = (
+				F53083D216CDF9D500A24F5D /* WOBGame.h */,
+				F53083D316CDF9D500A24F5D /* WOBGame.m */,
+				F53083D516CDFC6B00A24F5D /* WOBSingleBotTestGame.h */,
+				F53083D616CDFC6B00A24F5D /* WOBSingleBotTestGame.m */,
 			);
 			name = Games;
 			sourceTree = "<group>";
@@ -1251,6 +1371,10 @@
 		F5D5E9A416CCF1AB0062F188 /* Maps */ = {
 			isa = PBXGroup;
 			children = (
+				F53083D816CE088400A24F5D /* WOBMap.h */,
+				F53083D916CE088400A24F5D /* WOBMap.m */,
+				F53083DB16CE09E900A24F5D /* WOBBasicMap.h */,
+				F53083DC16CE09E900A24F5D /* WOBBasicMap.m */,
 			);
 			name = Maps;
 			sourceTree = "<group>";
@@ -1258,6 +1382,14 @@
 		F5D5E9A516CCF1C20062F188 /* Commands */ = {
 			isa = PBXGroup;
 			children = (
+				F53083DE16CE160A00A24F5D /* WOBCommand.h */,
+				F53083DF16CE160A00A24F5D /* WOBCommand.m */,
+				F53083E116CE182600A24F5D /* WOBMove.h */,
+				F53083E216CE182600A24F5D /* WOBMove.m */,
+				F53083E416CE184000A24F5D /* WOBTurn.h */,
+				F53083E516CE184000A24F5D /* WOBTurn.m */,
+				F53083E716CE185800A24F5D /* WOBAttack.h */,
+				F53083E816CE185800A24F5D /* WOBAttack.m */,
 			);
 			name = Commands;
 			sourceTree = "<group>";
@@ -1502,6 +1634,26 @@
 				F5D5E99B16CCE79F0062F188 /* WOBBasicBot.m in Sources */,
 				F5D5E99F16CCE9D80062F188 /* WOBWeapon.m in Sources */,
 				F5D5E9A216CCEADE0062F188 /* WOBMissileLauncher.m in Sources */,
+				F53083D416CDF9D500A24F5D /* WOBGame.m in Sources */,
+				F53083D716CDFC6B00A24F5D /* WOBSingleBotTestGame.m in Sources */,
+				F53083DA16CE088400A24F5D /* WOBMap.m in Sources */,
+				F53083DD16CE09E900A24F5D /* WOBBasicMap.m in Sources */,
+				F53083E016CE160A00A24F5D /* WOBCommand.m in Sources */,
+				F53083E316CE182600A24F5D /* WOBMove.m in Sources */,
+				F53083E616CE184000A24F5D /* WOBTurn.m in Sources */,
+				F53083E916CE185800A24F5D /* WOBAttack.m in Sources */,
+				F53083EC16CE1E7000A24F5D /* WOBRound.m in Sources */,
+				F53083F016CE20E200A24F5D /* WOBAchievement.m in Sources */,
+				F53083F616CE23D100A24F5D /* WOBGameServer.m in Sources */,
+				F53083F916CE23F600A24F5D /* WOBServerRequest.m in Sources */,
+				F53083FC16CE240900A24F5D /* WOBServerResponse.m in Sources */,
+				F53083FF16CE268700A24F5D /* WOBCreateGameRequest.m in Sources */,
+				F530840216CE26B100A24F5D /* WOBCreateGameResponse.m in Sources */,
+				F530840516CE277E00A24F5D /* WOBSubmitTurnRequest.m in Sources */,
+				F530840816CE279900A24F5D /* WOBSubmitTurnResponse.m in Sources */,
+				F530840B16CE284100A24F5D /* WOBGetUpdatedGameRequest.m in Sources */,
+				F530840E16CE285C00A24F5D /* WOBGetUpdatedGameResponse.m in Sources */,
+				F530841116CE319500A24F5D /* WOBGameView.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
