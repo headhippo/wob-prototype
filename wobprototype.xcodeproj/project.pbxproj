@@ -29,6 +29,9 @@
 		F50C31AB16CCC8B5008B57B6 /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = F50C31AA16CCC8B4008B57B6 /* Default-568h@2x.png */; };
 		F50C31B216CCCC64008B57B6 /* WOBConstants.m in Sources */ = {isa = PBXBuildFile; fileRef = F50C31B116CCCC64008B57B6 /* WOBConstants.m */; };
 		F50C31B516CCCD3F008B57B6 /* WOBMainMenu.m in Sources */ = {isa = PBXBuildFile; fileRef = F50C31B416CCCD3F008B57B6 /* WOBMainMenu.m */; };
+		F52CD59D16DF51F900EC4770 /* iTunesArtwork in Resources */ = {isa = PBXBuildFile; fileRef = F52CD59C16DF51F900EC4770 /* iTunesArtwork */; };
+		F52CD5A216DF52BC00EC4770 /* Battle.caf in Resources */ = {isa = PBXBuildFile; fileRef = F52CD5A016DF52BC00EC4770 /* Battle.caf */; };
+		F52CD5A316DF52BC00EC4770 /* Menu.caf in Resources */ = {isa = PBXBuildFile; fileRef = F52CD5A116DF52BC00EC4770 /* Menu.caf */; };
 		F53083D416CDF9D500A24F5D /* WOBGame.m in Sources */ = {isa = PBXBuildFile; fileRef = F53083D316CDF9D500A24F5D /* WOBGame.m */; };
 		F53083D716CDFC6B00A24F5D /* WOBSingleBotTestGame.m in Sources */ = {isa = PBXBuildFile; fileRef = F53083D616CDFC6B00A24F5D /* WOBSingleBotTestGame.m */; };
 		F53083DA16CE088400A24F5D /* WOBMap.m in Sources */ = {isa = PBXBuildFile; fileRef = F53083D916CE088400A24F5D /* WOBMap.m */; };
@@ -242,6 +245,9 @@
 		F50C31B116CCCC64008B57B6 /* WOBConstants.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WOBConstants.m; sourceTree = "<group>"; };
 		F50C31B316CCCD3F008B57B6 /* WOBMainMenu.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WOBMainMenu.h; sourceTree = "<group>"; };
 		F50C31B416CCCD3F008B57B6 /* WOBMainMenu.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WOBMainMenu.m; sourceTree = "<group>"; };
+		F52CD59C16DF51F900EC4770 /* iTunesArtwork */ = {isa = PBXFileReference; lastKnownFileType = file; name = iTunesArtwork; path = Resources/iTunesArtwork; sourceTree = "<group>"; };
+		F52CD5A016DF52BC00EC4770 /* Battle.caf */ = {isa = PBXFileReference; lastKnownFileType = file; name = Battle.caf; path = Resources/Battle.caf; sourceTree = "<group>"; };
+		F52CD5A116DF52BC00EC4770 /* Menu.caf */ = {isa = PBXFileReference; lastKnownFileType = file; name = Menu.caf; path = Resources/Menu.caf; sourceTree = "<group>"; };
 		F53083D216CDF9D500A24F5D /* WOBGame.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WOBGame.h; sourceTree = "<group>"; };
 		F53083D316CDF9D500A24F5D /* WOBGame.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WOBGame.m; sourceTree = "<group>"; };
 		F53083D516CDFC6B00A24F5D /* WOBSingleBotTestGame.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WOBSingleBotTestGame.h; sourceTree = "<group>"; };
@@ -719,6 +725,47 @@
 			name = Messaging;
 			sourceTree = "<group>";
 		};
+		F52CD59E16DF526300EC4770 /* Images */ = {
+			isa = PBXGroup;
+			children = (
+				F53EDBC116CA308D001D07C3 /* Default.png */,
+				F50C318116CCC3A4008B57B6 /* Default@2x.png */,
+				F50C31AA16CCC8B4008B57B6 /* Default-568h@2x.png */,
+				F50C317F16CCC3A4008B57B6 /* Bot-hd.png */,
+				F50C318016CCC3A4008B57B6 /* Bot.png */,
+				F50C318216CCC3A4008B57B6 /* EmptyBackground-hd.png */,
+				F50C318316CCC3A4008B57B6 /* EmptyBackground.png */,
+				F50C318416CCC3A4008B57B6 /* GameBackground-hd.png */,
+				F50C318516CCC3A4008B57B6 /* GameBackground.png */,
+				F52CD59C16DF51F900EC4770 /* iTunesArtwork */,
+				F50C318616CCC3A4008B57B6 /* Icon-72.png */,
+				F50C318716CCC3A4008B57B6 /* Icon-72@2x.png */,
+				F50C318816CCC3A4008B57B6 /* Icon-Small-50.png */,
+				F50C318916CCC3A4008B57B6 /* Icon-Small-50@2x.png */,
+				F50C318A16CCC3A4008B57B6 /* Icon-Small.png */,
+				F50C318B16CCC3A4008B57B6 /* Icon-Small@2x.png */,
+				F50C318C16CCC3A4008B57B6 /* Icon.png */,
+				F50C318D16CCC3A4008B57B6 /* Icon@2x.png */,
+				F50C318E16CCC3A4008B57B6 /* MainMenuBackground-hd.png */,
+				F50C318F16CCC3A4008B57B6 /* MainMenuBackground.png */,
+				F50C319016CCC3A4008B57B6 /* Missile-hd.png */,
+				F50C319116CCC3A4008B57B6 /* Missile.png */,
+				F53EDBC516CA308D001D07C3 /* fps_images.png */,
+				F53EDBC716CA308D001D07C3 /* fps_images-hd.png */,
+				F53EDBC916CA308D001D07C3 /* fps_images-ipadhd.png */,
+			);
+			name = Images;
+			sourceTree = "<group>";
+		};
+		F52CD59F16DF526F00EC4770 /* Sound */ = {
+			isa = PBXGroup;
+			children = (
+				F52CD5A116DF52BC00EC4770 /* Menu.caf */,
+				F52CD5A016DF52BC00EC4770 /* Battle.caf */,
+			);
+			name = Sound;
+			sourceTree = "<group>";
+		};
 		F53083ED16CE20A700A24F5D /* Achievements */ = {
 			isa = PBXGroup;
 			children = (
@@ -806,30 +853,8 @@
 			isa = PBXGroup;
 			children = (
 				F53EDBD716CA308D001D07C3 /* Info.plist */,
-				F53EDBC116CA308D001D07C3 /* Default.png */,
-				F50C318116CCC3A4008B57B6 /* Default@2x.png */,
-				F50C31AA16CCC8B4008B57B6 /* Default-568h@2x.png */,
-				F50C317F16CCC3A4008B57B6 /* Bot-hd.png */,
-				F50C318016CCC3A4008B57B6 /* Bot.png */,
-				F50C318216CCC3A4008B57B6 /* EmptyBackground-hd.png */,
-				F50C318316CCC3A4008B57B6 /* EmptyBackground.png */,
-				F50C318416CCC3A4008B57B6 /* GameBackground-hd.png */,
-				F50C318516CCC3A4008B57B6 /* GameBackground.png */,
-				F50C318616CCC3A4008B57B6 /* Icon-72.png */,
-				F50C318716CCC3A4008B57B6 /* Icon-72@2x.png */,
-				F50C318816CCC3A4008B57B6 /* Icon-Small-50.png */,
-				F50C318916CCC3A4008B57B6 /* Icon-Small-50@2x.png */,
-				F50C318A16CCC3A4008B57B6 /* Icon-Small.png */,
-				F50C318B16CCC3A4008B57B6 /* Icon-Small@2x.png */,
-				F50C318C16CCC3A4008B57B6 /* Icon.png */,
-				F50C318D16CCC3A4008B57B6 /* Icon@2x.png */,
-				F50C318E16CCC3A4008B57B6 /* MainMenuBackground-hd.png */,
-				F50C318F16CCC3A4008B57B6 /* MainMenuBackground.png */,
-				F50C319016CCC3A4008B57B6 /* Missile-hd.png */,
-				F50C319116CCC3A4008B57B6 /* Missile.png */,
-				F53EDBC516CA308D001D07C3 /* fps_images.png */,
-				F53EDBC716CA308D001D07C3 /* fps_images-hd.png */,
-				F53EDBC916CA308D001D07C3 /* fps_images-ipadhd.png */,
+				F52CD59E16DF526300EC4770 /* Images */,
+				F52CD59F16DF526F00EC4770 /* Sound */,
 			);
 			name = Resources;
 			sourceTree = "<group>";
@@ -1470,6 +1495,9 @@
 				F50C31A316CCC3A4008B57B6 /* Missile-hd.png in Resources */,
 				F50C31A416CCC3A4008B57B6 /* Missile.png in Resources */,
 				F50C31AB16CCC8B5008B57B6 /* Default-568h@2x.png in Resources */,
+				F52CD59D16DF51F900EC4770 /* iTunesArtwork in Resources */,
+				F52CD5A216DF52BC00EC4770 /* Battle.caf in Resources */,
+				F52CD5A316DF52BC00EC4770 /* Menu.caf in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

@@ -7,6 +7,7 @@
 //
 
 #import "WOBMainMenu.h"
+#import "SimpleAudioEngine.h"
 #import "WOBGameServer.h"
 #import "WOBCreateGameRequest.h"
 #import "WOBCreateGameResponse.h"
@@ -36,11 +37,15 @@
         CCMenuItem *storeItem = [CCMenuItemFont itemWithString:@"STORE" target:self selector:@selector(store)];
         
         CCMenu *menu = [CCMenu menuWithItems:accountItem, createGameItem, continueGameItem, garageItem, storeItem, nil];
-        [menu alignItemsVerticallyWithPadding:10];
-        [menu setPosition:ccp(240, 120)];
+        [menu alignItemsVerticallyWithPadding:7];
+        [menu setPosition:ccp(330, 110)];
         
         [self addChild:mainMenuBackgroundSprite z:0];
         [self addChild:menu z:1];
+        
+        if (![[SimpleAudioEngine sharedEngine] isBackgroundMusicPlaying]) {
+            [[SimpleAudioEngine sharedEngine] playBackgroundMusic:@"Menu.caf"];
+        }
     }
     
     return self;
@@ -51,8 +56,11 @@
 }
 
 -(void) createGame {
+    [[SimpleAudioEngine sharedEngine] stopBackgroundMusic];
+    
     WOBCreateGameRequest* request = [[WOBCreateGameRequest alloc] init];
     WOBCreateGameResponse* response = (WOBCreateGameResponse*)[[WOBGameServer server] callGameServer:request];
+    
     [WOBGameView setGame:response.game];
     [[CCDirector sharedDirector] replaceScene:[CCTransitionFade transitionWithDuration:1.0 scene:[WOBGameView scene]]];
 }

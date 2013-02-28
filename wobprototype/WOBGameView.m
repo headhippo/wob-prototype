@@ -7,6 +7,7 @@
 //
 
 #import "WOBGameView.h"
+#import "SimpleAudioEngine.h"
 #import "WOBMainMenu.h"
 #import "WOBGame.h"
 #import "WOBMap.h"
@@ -44,12 +45,17 @@ static WOBGame* _game = nil;
         [self addChild:mapSprite z:0];
         [self addChild:botSprite z:1];
         [self addChild:mainMenuMenu z:2];
+        
+        if (![[SimpleAudioEngine sharedEngine] isBackgroundMusicPlaying]) {
+            [[SimpleAudioEngine sharedEngine] playBackgroundMusic:@"Battle.caf"];
+        }
     }
     
     return self;
 }
 
 -(void) displayMainMenu {
+    [[SimpleAudioEngine sharedEngine] stopBackgroundMusic];
     [[CCDirector sharedDirector] replaceScene:[CCTransitionFade transitionWithDuration:1.0 scene:[WOBMainMenu scene]]];
 }
 
